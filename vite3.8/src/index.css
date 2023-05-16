@@ -1,0 +1,59 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(200, 206, 28, 0.729);
+  background-color: #253106;
+
+  /* font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%; */
+}
+
+.header{
+  background-color: rgb(104, 116, 126);
+}
+.body{background-color: rgb(115, 118, 114);
+  display: flex;
+  height: 70vw;
+  border-radius: 20PX;
+  padding: 10px;
+  
+}
+.left{
+  position: ab;
+  width: 70vw;
+  background-color: rgb(84, 58, 92);
+  text-transform: capitalize;
+  
+}
+.left:nth-child(odd){
+  transform: translateX(2px);
+}
+.right{
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer{background-color: rgb(94, 71, 80);
+  display: flex;
+  justify-content: space-around;
+  height: 5rem;
+}
+input{
+  height: fit-content;
+  align-self: center;
+}
+
+.desc_blocks{
+  background-color: rgb(101, 105, 105);
+}
+
+h3{
+  text-transform: capitalize;
+}
