@@ -1,12 +1,12 @@
 import Disp from "./block_dis"
 const Desc = [
     {
-        name: "max",
+        name: "max vesterppen",
         nat:"france",
         team: "red bull"
     },
     {
-        name: "lewis",
+        name: "lewis hamilton",
         nat:"British",
         team: "mercedes"
     },
